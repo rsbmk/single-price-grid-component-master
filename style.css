@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* COLOR */
+:root {
+  /* Primary */
+  --Darkcyan: hsl(179, 61%, 44%);
+  --Cyan: hsl(179, 47%, 56%);
+  --BrightYellow: hsl(71, 73%, 54%);
+  --whitewords: white;
+  /* Neutral */
+
+  --Grayparagraph: #aeb1b6;
+  --LightGray: hsl(204, 43%, 93%);
+  --GrayishBlue: hsl(218, 22%, 0%);
+}
+body {
+  background: var(--LightGray);
+  font-family: "Karla", sans-serif;
+}
+.wrapper-page {
+  width: 80vw;
+  margin: 5% auto;
+  border-radius: 10px;
+}
+/*FIRST CARD*/
+.up-card {
+  height: 36vh;
+  padding: 30px 20px;
+  background-color: var(--whitewords);
+}
+.tittle {
+  font-size: 1.25em;
+  margin-bottom: 20px;
+  color: var(--Darkcyan);
+}
+.subtittle {
+  font-size: 1.25em;
+  margin-bottom: 15px;
+  color: var(--BrightYellow);
+}
+.paragraph-firstcard {
+  font-size: 1em;
+  line-height: 25px;
+  color: var(--Grayparagraph);
+}
+/*BOTH BLUE CARDS*/
+.bluecards {
+  height: 28vh;
+  padding: 30px 20px;
+}
+.tittle-bluecards {
+  color: var(--whitewords);
+  font-size: 1em;
+  margin-bottom: 13px;
+}
+/* SECOND CARD */
+.middle-card {
+  background: var(--Darkcyan);
+}
+.price {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+  color: var(--Grayparagraph);
+}
+.number {
+  color: var(--whitewords);
+  font-size: 1.5em;
+  margin-right: 15px;
+}
+.paragraph-price {
+  color: var(--whitewords);
+  font-size: 0.9em;
+  margin-bottom: 30px;
+}
+.btn {
+  padding: 10px 0;
+  border-radius: 5px;
+  text-align: center;
+  color: var(--whitewords);
+  background-color: var(--BrightYellow);
+  box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.2);
+}
+/*THIRD CARD*/
+.buttom-card {
+  color: hsl(179, 68%, 77%);
+  background-color: var(--Cyan);
+}
+/*RESPONSIVE*/
+@media screen and (min-width: 420px) {
+  .wrapper-page {
+    margin: 8% auto;
+  }
+  .wrapper-bluecards {
+    display: flex;
+    justify-content: center;
+  }
+  .up-card {
+    width: 60%;
+    height: 27vh;
+    padding: 30px 50px;
+    margin: 0 auto;
+  }
+  .bluecards {
+    width: 30%;
+    height: 33vh;
+    padding: 30px 50px;
+  }
+  .paragraph-buttomcard {
+    font-size: 0.75em;
+    line-height: 20px;
+  }
+}
