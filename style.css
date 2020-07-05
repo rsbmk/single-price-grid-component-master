@@ -27,7 +27,7 @@ body {
 }
 /*FIRST CARD*/
 .up-card {
-  height: 35vh;
+  height: 300px;
   padding: 30px 20px;
   background-color: var(--whitewords);
 }
@@ -48,7 +48,7 @@ body {
 }
 /*BOTH BLUE CARDS*/
 .bluecards {
-  height: 35vh;
+  height: 220px;
   padding: 30px 20px;
 }
 .tittle-bluecards {
